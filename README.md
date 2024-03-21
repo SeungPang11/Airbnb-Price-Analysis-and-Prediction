@@ -1,17 +1,20 @@
 # Airbnb-Price-Analysis-and-Prediction
-**[View Project](https://colab.research.google.com/drive/1U04QOLSdSbzg_ar0W0sdrX5UspFtfDxi?authuser=2#scrollTo=7g2RVhdbrhNO)** <br />
-
 <img width="489" alt="Screen Shot 2024-03-21 at 5 08 47 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/489dc539-1c84-43fd-8340-3a2bc77149b4">
 <br />
 
+**[Project Google Colab Link](https://colab.research.google.com/drive/1U04QOLSdSbzg_ar0W0sdrX5UspFtfDxi?authuser=2#scrollTo=7g2RVhdbrhNO)** <br />
+
+_**Techniques**_: Regression Models, Data Analysis, Feature Engineering, <br /> 
+Feature Selection, Hyperparameter Tuning, Cross-Validation <br />
+_**Tools**_: Python, Plotly <br />
+
+---- 
 
 ## Datasets 
 **[Seattle Airbnb Open Data](https://www.kaggle.com/datasets/airbnb/seattle?select=listings.csv)** <br />
 * 1.4 million listing activity data and 96 variables
 
-_**Techniques**_: Regression Models, Data Analysis, Feature Engineering, <br /> 
-Feature Selection, Hyperparameter Tuning, Cross-Validation <br />
-_**Tools**_: Python, Plotly <br />
+---- 
 
 ## Exploratory Data Analysis
 * _**Word Frequency of the Dataset**_<br />
