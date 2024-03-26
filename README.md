@@ -17,66 +17,29 @@ _**Tools**_: Python, Plotly <br />
 ---- 
 
 ## Exploratory Data Analysis
-* _**Word Frequency of the Dataset**_<br />
+* _**Listing Price Distribution**_<br />
+<img width="400" alt="Screen Shot 2024-01-29 at 12 05 49 AM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/e484622a-0d81-481b-a33c-a00ad7d4e468">
 
-**Gossip Cop Dataset** <br />
-<img width="542" alt="Screen Shot 2024-01-04 at 6 39 46 PM" src="https://github.com/SeungPang11/Fake-News-Detection-with-Maching-Learning/assets/67944800/b8ec6a70-ad7b-4c35-859e-df88a003bb93"><br />
+* _**Listings and Neighborhood Map**_<br />
+<img width="400" alt="Screen Shot 2024-01-29 at 4 16 48 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/6a5a6dc7-edbf-4203-8a9f-d533b0727bab"><br />
 
-**Politifact Dataset** <br />
-<img width="543" alt="Screen Shot 2024-01-04 at 6 40 08 PM" src="https://github.com/SeungPang11/Fake-News-Detection-with-Maching-Learning/assets/67944800/cfcba6d8-e34e-4454-8eda-e4124ebc0a94"> <br />
+* _**Avg Booking Price by Neighborhood**_<br />
+<img width="400" alt="Screen Shot 2024-01-28 at 6 01 51 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/cc846fff-9569-4fe0-94c3-b57802dbf2e1"><br />
 
-* _**Word Count Distribution**_<br />
-<img width="400" alt="Screen Shot 2024-01-06 at 12 52 19 AM" src="https://github.com/SeungPang11/Fake-News-Detection-with-Maching-Learning-Updated-Jan-24-/assets/67944800/a6b52cf3-c048-485b-abe5-f74a71488984">
+* _**Avg Listing Price and # Listings by Month**_<br />
+<img width="400" alt="Screen Shot 2024-01-28 at 10 35 34 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/a0d62f92-b2f9-414c-ba5a-2492cb2d90bb"><br />
+<img width="400" alt="Screen Shot 2024-01-28 at 10 35 44 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/f5835541-6347-4295-8e16-733776a19ed1"><br />
 
-![Fake News Detection EDA Analysis](https://github.com/SeungPang11/Fake-News-Detection-with-Maching-Learning-Updated-Jan-24-/assets/67944800/9db71001-8b29-46ea-ba38-2533ad505011)
-
-
-
+----
 ## Methods
 _**Feature Engineering**_<br />
-* **Word Count**: The number of words in news titles. <br>
-* **Retweet Count**: The number of times in news has been tweeted/ retweeted. <br>
-* **TF-IDF**: Transform text into a representation of numbers while removing stopwords. <br>
-* **Sentiment**: Emotional tone of news (Polarity [-1,1], Sensitivity [0,1]). <br>
-* **Scaling**: [MaxAbsScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MaxAbsScaler.html) is applied for sparse CSR matrix. 
-[Compare Different Scalers](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_all_scaling.html#plot-all-scaling-max-abs-scaler-section)
-<br>
-
-_**Synthetic Minority Over-Sampling Technique (SMOTE)**_<br />
-* Oversample minority class to tweak the model <br />
-(reduce False Negatives, at the cost of increasing False Positives).<br /> 
-The result is generally an increase in recall, at the cost of lower precision.
-
-* Before SMOTE, the model was good at detecting real news (high True Positives),<br /> 
-while performing poorly at detecting fake news (low True Negatives).<br /> 
-
-_**Naive Bayes**_<br />
-* Based on conditional probability (Bayes Theorem), probability of an event <br />
-occurring given another event already happened, and assumes all features equally <br />
-affect the outcome.
-
-_**Logistic Regression**_<br />
-* Models the probability of a discrete outcome given input variables.
-
-_**Support Vector Machine**_<br />
-* Finds a hyperplane in an N-dimensional space (# of features)  <br />
-that distinctly classifies the data points.<br /> 
-Computationally intensive and works better on small data with large features.
-
+_**Regression Models**_<br />
 _**XGBoost**_<br />
 * Based on the gradient-boosted trees algorithm which predicts <br />
 a target variable by combining the estimates of a set of simpler models.
 
 ____________________________________________________
-## Result - Updated Jan 2024
-* Updated text pre-processing to better remove emojis, URLs, and special characters <br>
-* Cross Validation to evaluate model performance <br>
-* Tested oversampling minority class & undersampling majority class <br>
-* **Improved performance**  
-<img width="700" alt="Screen Shot 2024-01-06 at 7 09 30 PM" src="https://github.com/SeungPang11/Fake-News-Detection-with-Maching-Learning-Updated-Jan-24-/assets/67944800/0dc09df2-45a4-4429-afbb-6c92c013e94d"><br>
- -Achieved a **significantly improved F1** score from previous performance <br>
- -**Recall is more important** than Precision (Classifying Fake News as Real News is worse)<br>
- -**Best Performance:** Bernoulli Naive Bayes (Higher Recall and F1) <br>
- -**Worst Performance:** SVM (works best with high dimensional small data) <br>
-  and computationally intensive
+## Result
+* 
+* 
   
