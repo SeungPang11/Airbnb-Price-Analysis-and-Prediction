@@ -2,7 +2,7 @@
 <img width="489" alt="Screen Shot 2024-03-21 at 5 08 47 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/489dc539-1c84-43fd-8340-3a2bc77149b4">
 <br />
 
-**[Project Google Colab Link](https://colab.research.google.com/drive/1U04QOLSdSbzg_ar0W0sdrX5UspFtfDxi?authuser=2#scrollTo=7g2RVhdbrhNO)** <br />
+**[View Project Google Colab](https://colab.research.google.com/drive/1U04QOLSdSbzg_ar0W0sdrX5UspFtfDxi?authuser=2#scrollTo=7g2RVhdbrhNO)** <br />
 
 _**Techniques**_: Regression Models, Data Analysis, Feature Engineering, <br /> 
 Feature Selection, Hyperparameter Tuning, Cross-Validation <br />
@@ -33,7 +33,7 @@ _**Tools**_: Python, Plotly <br />
 * _**Listing Price and Property Type**_<br />
 <img width="400" alt="Screen Shot 2024-01-29 at 1 12 09 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/c42812c2-e3e7-47d1-b58a-1c689d911f9a"><br />
 
-* _**Listing Price and Review Inforamtion**_<br />
+* _**Listing Price and Review**_<br />
 <img width="400" alt="Screen Shot 2024-01-30 at 9 13 04 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/c94b07d1-f72b-46b9-b2e7-e16e1064ca01"><br />
 <img width="400" alt="Screen Shot 2024-01-30 at 9 13 09 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/98f67cc6-61bd-440e-ad9f-b62fa613c654"><br />
 
@@ -42,13 +42,19 @@ _**Tools**_: Python, Plotly <br />
 ----
 ## Methods
 _**Feature Engineering**_<br />
+_**Data Standardization and Feature Selection**_<br />
 _**Regression Models**_<br />
 _**XGBoost**_<br />
 * Based on the gradient-boosted trees algorithm which predicts <br />
 a target variable by combining the estimates of a set of simpler models.
+_**Hyperparameter Tuning**_<br />
+_**Model Evaluation and Comparison**_<br />
 
 ____________________________________________________
 ## Result
 * 
-* 
+<img width="400" alt="Screen Shot 2024-01-29 at 9 00 34 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/d728c926-8882-445a-9b5d-ee86ce1aad96"><br />
+<img width="400" alt="Screen Shot 2024-01-29 at 8 59 21 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/829e4d5e-2b37-4954-a678-6e377f5b2ea4"><br />
+
+
   
