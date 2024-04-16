@@ -43,16 +43,31 @@ _**Tools**_: Python, Plotly <br />
 ## Methods
 _**Feature Engineering**_<br />
 _**Data Standardization and Feature Selection**_<br />
-_**Regression Models**_<br />
-_**XGBoost**_<br />
-* Based on the gradient-boosted trees algorithm which predicts <br />
-a target variable by combining the estimates of a set of simpler models.
+_**Regression Models**_ - Linear Regression, Decision Tree, Random Forest, XGBoost <br />
 _**Hyperparameter Tuning**_<br />
+_**Plotting Feature Importance**_<br />
 _**Model Evaluation and Comparison**_<br />
 
 ____________________________________________________
+## Metrics
+
+**MSE (Mean Squared Error)**: <br />
+Avg Squared Differences between Predicted and Actual <br /><br />
+**RMSE (Root Mean Squared Error):** <br />
+Sqrt of MSE <br /><br />
+**MAE (Mean Absolute Error):** <br />
+Avg Absolute Differences between Predicted and Actual <br /><br />
+**R^2 (R-Squared):** <br />
+Overall goodness of fit/ how well the model explains variability (how much model adjust to changes) in the data. Ranges from 0 to 1 (Higher = Better) <br /><br />
+
+**Higher MSE but Lower MAE**: <br />
+MSE, RMSE, and MAE (in original units of target variable). <br />
+MSE and RMSE penalize large errors and emphasize the impact of outliers, <br />
+while MAE is robust to outliers. <br />
+
+____________________________________________________
 ## Result
-* 
+
 <img width="400" alt="Screen Shot 2024-01-29 at 9 00 34 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/d728c926-8882-445a-9b5d-ee86ce1aad96"><br />
 <img width="400" alt="Screen Shot 2024-01-29 at 8 59 21 PM" src="https://github.com/SeungPang11/Airbnb-Price-Analysis-and-Prediction/assets/67944800/829e4d5e-2b37-4954-a678-6e377f5b2ea4"><br />
 
